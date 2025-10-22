@@ -9,5 +9,7 @@ public class App {
        System.out.println("-------despues de un pop-------");
        myStack.pop();
        myStack.printStack();
+       System.out.println("-------despues de borrar-------");
+       myStack.clear();
     }
 }
